@@ -1,10 +1,11 @@
 /* eslint-disable */
 
 import React, { useState, useEffect } from 'react';
-import logo from './logo.svg';
 import './App.css';
+import * as Components from './components';
 
 function fetchData() {
+  
   const [data, setData] = useState(null);
   const [Loading, setLoading] = useState(true);
   const [error, setError] = usestate(null);
