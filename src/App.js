@@ -5,7 +5,7 @@ import './App.css';
 import * as Components from './components';
 
 function fetchData() {
-  
+
   const [data, setData] = useState(null);
   const [Loading, setLoading] = useState(true);
   const [error, setError] = usestate(null);
@@ -55,6 +55,7 @@ function App() {
         <div className="logo">
           프로젝트 로고
         </div>
+        <Components.SearchBar />
       </div>
     </div>
   );

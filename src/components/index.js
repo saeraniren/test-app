@@ -1,3 +1,3 @@
-import search from './search';
+import SearchBar from './search';
 
-export { search, };
+export { SearchBar, };
