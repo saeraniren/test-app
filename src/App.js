@@ -59,7 +59,7 @@ function App() {
         <span>지원바람</span>
       </div>
       <hr/>
-      
+
       <div className='search-area'>
         <div>
           <input
@@ -91,6 +91,10 @@ function App() {
             />
           <button>log in</button>
         </form>
+        <div>
+          <button>Sign Up</button>
+          <button>Sign In</button>
+        </div>
       </div>
       <hr/>
 
